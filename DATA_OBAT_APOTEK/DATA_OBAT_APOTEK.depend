@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1490182691 source:e:\tubes indo\tubes_asd_data_obat_apotek\data_obat_apotek\doublelist.cpp
+	"doublelist.h"
+
+1490182751 e:\tubes indo\tubes_asd_data_obat_apotek\data_obat_apotek\doublelist.h
+	<iostream>
+
+1446667744 source:e:\tubes indo\tubes_asd_data_obat_apotek\data_obat_apotek\main.cpp
+	<iostream>
+
+1490182999 source:e:\tubes indo\tubes_asd_data_obat_apotek\data_obat_apotek\singlelist.cpp
+	"singlelist.h"
+
+1490182999 e:\tubes indo\tubes_asd_data_obat_apotek\data_obat_apotek\singlelist.h
+	<iostream>
+

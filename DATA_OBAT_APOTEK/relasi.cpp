@@ -86,10 +86,11 @@ void deletelast(list_R &L, address_R &P){
 address_R findelm(list_R L, address_C C, address_P S){
     address_R Q;
     Q = first(L);
-    while(Q != NULL && obat(Q) != C || penyakit(Q) != S){
-        Q = next(Q);
+    while (Q!= NULL)
+        if(obat(Q) != C || penyakit(Q) != S){
+        return Q;
     }
-    return Q;
+    Q= next(Q);
 }
 
 void insertafter(list_R &L, address_R Prec, address_R P){

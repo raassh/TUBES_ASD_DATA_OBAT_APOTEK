@@ -32,7 +32,14 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="aplikasi.cpp" />
+		<Unit filename="doublelist.cpp" />
+		<Unit filename="doublelist.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="relasi.cpp" />
+		<Unit filename="relasi.h" />
+		<Unit filename="singlelist.cpp" />
+		<Unit filename="singlelist.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />

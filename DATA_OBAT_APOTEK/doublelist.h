@@ -1,3 +1,8 @@
+/**
+Nama: Fahrurrozi
+NIM: 1301164213
+Mengerjakan satu halaman ini
+*/
 #ifndef DOUBLELIST_H_INCLUDED
 #define DOUBLELIST_H_INCLUDED
 #include <iostream>
@@ -9,38 +14,38 @@
 #define info(P) P->info
 
 
+
 using namespace std;
 
-typedef int infotype;
-
-typedef struct elmlist *address;
-
-struct elmlist {
-    infotype info;
-    address next;
-    address prev;
+struct infotype_P {
+    string nama, id, tb, gej1, gej2,gej3;
 };
 
-struct List {
-    address first;
-    address last;
+typedef struct elmlist_P *address_P;
+
+struct elmlist_P {
+    infotype_P info;
+    address_P next;
+    address_P prev;
+};
+
+struct List_P {
+    address_P first;
+    address_P last;
 };
 
 
-void createList(List &L);
-address alokasi(infotype x);
-void dealokasi(address &P);
-
-void insertFirst(List &L, address P);
-void insertAfter(List &L, address Prec, address P);
-void insertLast(List &L, address P);
-
-void deleteFirst(List &L, address &P);
-void deleteLast(List &L, address &P);
-void deleteAfter(List &L, address Prec, address &P);
-
-address findElm(List L, infotype x);
-void printInfo(List L);
+void createList(List_P &L);
+address_P alokasi(infotype_P x);
+void dealokasi(address_P &P);
+void insertFirst(List_P &L, address_P P);
+void insertAfter(List_P &L, address_P Prec, address_P P);
+void insertLast(List_P &L, address_P P);
+void deleteFirst(List_P &L, address_P &P);
+void deleteLast(List_P &L, address_P &P);
+void deleteAfter(List_P &L, address_P Prec, address_P &P);
+address_P findElm(List_P L, infotype_P x);
+void printInfo(List_P L);
 
 
 
